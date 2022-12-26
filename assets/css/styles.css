@@ -1,0 +1,72 @@
+body {
+  margin: 0%;
+  border: 0%;
+}
+.fondo {
+  margin: auto;
+  padding: 20px;
+  background-color: aquamarine;
+  width: 40%;
+  border: 1px black solid;
+}
+.desafio-imagen {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.desafio2 {
+  margin: auto;
+  padding: 20px;
+  background-color: bisque;
+  width: 40%;
+  border: 1px black solid;
+}
+.titulo_desafio2 {
+  text-align: center;
+}
+.row {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+}
+.column {
+  display: grid;
+  padding: 20px;
+}
+.aviso {
+  text-align: center;
+}
+.boton {
+  text-align: center;
+  margin-top: 15px;
+}
+.desafio3 {
+  margin: auto;
+  padding: 20px;
+  background-color: darkcyan;
+  border: 1px black solid;
+  width: 40%;
+}
+.selectores {
+  padding: 3px;
+  margin-top: 20px;
+  align-self: center;
+  text-align: center;
+}
+.clave {
+  padding: 4px;
+}
+.boton2 {
+  align-self: center;
+  text-align: center;
+  padding: 3px;
+  margin-top: 20px;
+}
+p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <title>Condiciones</title>
+  </head>
+  <body>
+    <div class="fondo">
+      <p>(desafio 1)</p>
+      <div class="desafio-imagen">
+        <div class="border">
+          <img id="carajo" src="/assets/img/sticker.jpg" onclick="borde()" />
+        </div>
+      </div>
+    </div>
+
+    <div class="desafio2">
+      <p class="titulo_desafio2">puedes llevar hasta 10 stickers en total (desafio 2)</p>
+      <div class="row">
+        <div class="column">
+          <img
+            src="/assets/img/sticker.jpg"
+            class="desafio-imagen"
+            alt="carajo"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="/assets/img/sticker.jpg"
+            class="desafio-imagen"
+            alt="carajo"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="/assets/img/sticker.jpg"
+            class="desafio-imagen"
+            alt="carajo"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <input type="number" name="cantidad1" id="cantidad1" value="0" />
+        </div>
+        <div class="column">
+          <input type="number" name="cantidad2" id="cantidad2" value="0" />
+        </div>
+        <div class="column">
+          <input type="number" name="cantidad3" id="cantidad3" value="0" />
+        </div>
+      </div>
+      <div class="aviso">
+        <div>Llevas <span id="total_cantidad">0</span> stickers.</div>
+      </div>
+      <div class="boton">
+        <button onclick="sumar()">Verificar</button>
+      </div>
+    </div>
+
+    <div class="desafio3">
+      <p>Ingresa la password (desafio 3)</p>
+      <div class="selectores">
+        <select class="clave" name="clave" id="clave1">
+          <option value="1" selected>1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+        <select class="clave" name="clave" id="clave2">
+          <option value="1" selected>1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+        <select class="clave" name="clave" id="clave3">
+          <option value="1" selected>1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+      </div>
+      <div class="boton2">
+        <button onclick="clave()">Ingresar</button>
+      </div>
+      <div class="aviso">
+        <span id="suma_digitos">&nbsp;</span>
+    </div>
+    </div>
+    <script src="/assets/js/js.js"></script>
+  </body>
+</html>
